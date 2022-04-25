@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+}
+
+body{
+    background-color: #304555;
+}
+
+    .input-image{
+        position: absolute;
+        text-align: center;
+}
+
+  .wrapper{
+     width: 85vw;
+     padding: 50px 30px;
+     background-color: #d8cdcd;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     top: 50%;
+     left: 50%;
+     border-radius: 10px;
+     box-shadow: 0 20px 35px rgba(0,0,0,0.15);
+     display: grid;
+     grid-template-columns: 5fr 7fr;
+ }
+
+ .editor{
+     border: 2px solid rgba(56, 143, 129, 0.932);
+     min-height: 35vmin; 
+     display: flex;
+     flex-direction: column;
+ }
+
+ .editor label{
+     font-size: 2.8vmin;
+     color: #2a292a;
+     font-weight: 400;
+ }
+
+ .results{
+     border: 2px solid rgba(0, 0, 0, 0.473);
+ }
+
+ img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    /* object-fit: contain; */
+}
+
+ 
